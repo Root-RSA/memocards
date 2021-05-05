@@ -1,8 +1,8 @@
 <?php
 $settings = [
-    'host' => 'localhost',
-    'dbname' => 'cards',
-    'username' => 'root',
-    'password' => '',
+    'host' => 'hostname', //type your hostname
+    'dbname' => 'dbname', //type your dbname
+    'username' => 'username', //type your username
+    'password' => 'password', //type your passowrd
 ];
 
