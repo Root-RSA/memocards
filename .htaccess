@@ -1,7 +1,10 @@
 RewriteEngine On
-RewriteBase /current_version_of_projects/FlashCards/MVC/
+
+#define a base path
+RewriteBase /memocards/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
+#Make a single entry point for the application
 RewriteRule ^(.*)$ index.php
