@@ -1,6 +1,6 @@
 RewriteEngine On
 
-#define a base path
+#Define a base path
 RewriteBase /memocards/
 
 RewriteCond %{REQUEST_FILENAME} !-f
